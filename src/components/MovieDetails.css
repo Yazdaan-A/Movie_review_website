@@ -1,0 +1,47 @@
+.movie-details {
+  padding: 20px;
+}
+
+.movie-header {
+  display: flex;
+  gap: 20px;
+}
+
+.movie-poster {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.movie-info {
+  flex: 1;
+}
+
+.movie-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.movie-cast {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cast-member {
+  text-align: center;
+  width: 150px;
+}
+
+.cast-member img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-trailers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}

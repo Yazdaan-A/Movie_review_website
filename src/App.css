@@ -1,0 +1,74 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 10px 20px; /* Slightly increased padding for better spacing */
+  color: white;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover, .active-link {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.search-bar {
+  position: absolute;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px; /* Reduced the width for a more compact size */
+}
+
+.search-bar button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.search-bar button:hover {
+  background-color: #21a1f1;
+}

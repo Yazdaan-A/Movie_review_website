@@ -1,0 +1,27 @@
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .movie-info {
+    text-align: center;
+  }
+  
+  .rating-stars {
+    color: gold;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  

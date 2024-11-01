@@ -1,0 +1,37 @@
+.upcoming-movies {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer; /* Add cursor pointer to indicate clickability */
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.movie-info {
+  margin-top: 10px;
+}
+
+.movie-info h3 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.movie-info p {
+  font-size: 0.9em;
+  color: #555;
+}
